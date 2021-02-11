@@ -1,0 +1,26 @@
+﻿{
+	"Logging": {
+		"LogLevel": {
+			"Default": "Information",
+			"Microsoft": "Debug",
+			"Microsoft.Hosting.Lifetime": "Information"
+		}
+	},
+	"AppSettings": {
+		"CoinMarketCapSetting": {
+			"ApiUrl": "https://pro-api.coinmarketcap.com/v1/",
+			"ApiKey": "c5af7d50-80bd-4788-8248-cbcb1f949618"
+		},
+		"ExchangeRatesApiUrl": "https://api.exchangeratesapi.io/",
+		"Currencies": [
+			"USD",
+			"EUR",
+			"BRL",
+			"GBP",
+			"AUD"
+		],
+		"CalculateQuoteApproach": "cryptocurrencyquotewithexchangeapproach",
+		"BaseCurrency": "USD",
+		"MaximumFloatingPointDigit": 10
+	}
+}

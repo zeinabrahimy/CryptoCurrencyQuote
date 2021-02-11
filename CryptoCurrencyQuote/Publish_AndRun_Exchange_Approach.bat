@@ -1,0 +1,3 @@
+dotnet publish CryptoCurrencyQuote -c ExchangeApproach
+cd CryptoCurrencyQuote\bin\ExchangeApproach\netcoreapp3.1
+CryptoCurrencyQuote
